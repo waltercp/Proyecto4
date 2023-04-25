@@ -3,7 +3,7 @@ import './App.css'
 import UserCard from './components/UserCard'
 import useUserCrud from './hooks/useUserCrud'
 import FormUser from './components/FormUser'
-import AlertForm from './components/alertForm'
+import AlertForm from './components/AlertForm'
 
 
 function App() {
