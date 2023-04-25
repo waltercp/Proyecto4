@@ -25,7 +25,9 @@
     max-width: 500px;
 }
 
-
+.formAlert h3{
+    font-weight: 500;
+}
 
 .formAlert img{
     padding: 1.5em;
