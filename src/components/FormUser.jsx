@@ -14,7 +14,7 @@ const FormUser = ({ createNewUser, updateInfo, updateUserById, setUpdateInfo, se
     }, [updateInfo])
 
     const submit = data => {
-        if (email.value == "" || password.value == "" || last_name.value == "" || first_name == "" || birthday.value == "") {
+        if (email.value == "" || password.value == "" || last_name.value == "" || first_name.value == "" || birthday.value == "") {
             setFormAlertEmpty(false)
             setTimeout(() => {
                 setFormAlertEmpty(true)
